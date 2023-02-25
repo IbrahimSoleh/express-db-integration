@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0"
+  },
+  "name": "express-db-integration",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "seed": "node seeding.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ibrahim Soleh",
+  "license": "ISC",
+  "description": ""
+}
